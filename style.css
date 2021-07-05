@@ -81,7 +81,53 @@ body{
     padding-right: 10px;
 }
 
-.box-sec h1{
+#ex-id{
     font-size: 55px;
     font-weight: 700;
+}
+
+#lb-h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+#lb-h3{
+    font-size: 30px;
+    font-weight: 700px;
+    color: orange;
+}
+
+.box-content{
+    display: flex;
+    margin-bottom: 150px;
+    
+}
+
+.left-box{
+    border-left: 5px solid forestgreen;
+}
+
+.right-box{
+    border-left: 5px solid;
+    border-image: linear-gradient(salmon,rgb(255, 243, 71));
+    border-image-slice: 1;
+}
+
+
+.shadow{
+    width: 40%;
+    padding-left: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 50px gray;
+    
+}
+
+.box-sec{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+footer{
+    text-align: center;
 }
